@@ -1,5 +1,5 @@
 {% set name = "pyfab" %}
-{% set version = "0.3.5" %}
+{% set version = "0.3.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyfab-{{ version }}.tar.gz
-  sha256: fff612517cc3f24c23c0314bc115d7ba092c26b9a4823984b01d081926070960
+  sha256: c0cad0b5485ac020114f3e4af2aa1a227a2bcd2f803739d3b0c4838ad4bc913f
 
 build:
   number: 0
